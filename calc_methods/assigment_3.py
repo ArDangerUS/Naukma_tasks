@@ -28,11 +28,10 @@ def gauss_elimination(A, b):
 
     return x
 
-# Приклад використання
 if __name__ == "__main__":
-    A = np.array([[2, 1, -1],
-                  [-3, -1, 2],
-                  [-2, 1, 2]], dtype=float)
+    A = np.array([[0, 0, -1],
+                  [0, -1, 0],
+                  [-1, 0, 0]], dtype=float)
     b = np.array([8, -11, -3], dtype=float)
 
     x = gauss_elimination(A, b)
